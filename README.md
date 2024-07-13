@@ -28,3 +28,9 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+Open the nginx sites-enabled directory then in default file change the location using proxy_pass of python app Ip which needs to be access via instance id only instead of directly host id.
+
+### At last the deployment is over and the webpage will be shown below:
+![Screenshot 2024-07-13 153627](https://github.com/user-attachments/assets/89c4d382-f22d-461b-91ff-6246ba4b3554)
+
