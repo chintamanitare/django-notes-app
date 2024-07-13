@@ -1,5 +1,7 @@
 # Simple Notes App
 This is a simple notes app built with React and Django.
+Simply works to note some impt tasks or feedback to work on, however to deploy this application here we implement simple methodology of dockerizing the application to maintain system complexities and using reverse proxy or port forwarding serve the application via Nginx server. 
+
 
 ## Requirements
 1. Python 3.9
